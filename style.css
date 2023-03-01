@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('school1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box{    
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white; 
+    height: 320px;
+    width: 320px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease-in-out;
+}
+.box:hover{
+    background-color: blac;
+}
+.box h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.box input{
+    width: 80%;
+    margin-bottom: 15px;
+}
+.box input[type="text"], .box input[type="password"], .box input[type="email"]{
+    border: none;
+    border-bottom: 1px white solid;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.box input[type="submit"]{
+    margin-top: 30px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(107, 16, 16) ;
+    color: white;
+}
+.box input[type="submit"]:hover{
+    background-color: rgb(148, 29, 29) ;
+}
+.box a{
+    text-decoration: none;
+    font-size: smaller;
+    color: white;
+}
+.box a:hover{
+    color: rgb(241, 232, 144)
+}
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header ul{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+header li{
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 14px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header :hover{
+    color: rgb(241, 232, 144);
+}
+.logo{
+    height: 80px;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+}
